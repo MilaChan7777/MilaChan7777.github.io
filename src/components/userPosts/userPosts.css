@@ -1,0 +1,64 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.username {
+    display: flex;
+    padding-left: 10px;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #e6a0ff;
+    overflow: hidden;
+}
+
+.imgPost {
+    max-width: 100%; 
+    max-height: 100%; 
+    width: 450px; 
+    height: 300px; 
+    display: block;
+    margin: auto; 
+}
+
+.tag {
+    border-radius: 30px;
+    background-color: #e6a0ff;
+    color: white;
+    max-width: 100%;
+    width: 90px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.description .des {
+    flex: 1; 
+}
+
+.imgDiv {
+    width: 500px;
+    height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .imgDiv {
+        width: 90%; 
+        height: auto;
+    }
+}

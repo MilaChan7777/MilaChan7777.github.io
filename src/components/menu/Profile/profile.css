@@ -1,0 +1,28 @@
+img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 20px; 
+        height: 20px;
+    }
+
+    button {
+        margin: 5px; 
+    }
+}

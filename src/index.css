@@ -1,0 +1,64 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%; 
+    max-width: 500px; 
+    height: 60px;
+    background-color: white;
+    border-bottom: 1.5px solid #e6a0ff;
+}
+
+.menu-bar button {
+    flex: 1; 
+    margin: 0 5px; 
+}
+
+.post {
+    width: 90%; 
+    max-width: 500px; 
+    height: auto;
+    border: 1px solid #ddd;
+    border-bottom: 1.5px solid #e6a0ff; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+.interaction {
+    margin-bottom: 10px;
+}
+
+.logo {
+    position: fixed;
+    top: 20px;
+    left: -100px;
+    z-index: 1000;
+    width: 40px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        display: block;
+    }
+}

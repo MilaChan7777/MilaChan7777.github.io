@@ -1,0 +1,58 @@
+ 
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+ .post {
+    width: 90%; 
+    max-width: 500px; 
+    max-height: 700px;
+    margin-top: 60px;
+    margin-bottom: -40px;
+ }
+
+ .menu-bar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%; 
+    max-width: 500px; 
+    height: 60px;
+    background-color: white;
+    border-bottom: 1.5px solid #e6a0ff;
+}
+
+.menu-bar button {
+    flex: 1; 
+    margin: 0 5px; 
+}
+
+
+.logo {
+    position: fixed;
+    top: 20px;
+    left: -100px;
+    z-index: 1000;
+    width: 40px;
+    height: auto;
+}
+
+app-profilehead2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
